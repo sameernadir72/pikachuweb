@@ -14,19 +14,31 @@ export default function Navbar() {
           href="#"
           className="text-sm font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-50"
           prefetch={false}>
-          Home
-        </Link>
-        <Link
-          href="#"
-          className="text-sm font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-50"
-          prefetch={false}>
           About
         </Link>
         <Link
           href="#"
           className="text-sm font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-50"
           prefetch={false}>
-          Contact
+          Tokenomics
+        </Link>
+        <Link
+          href="#"
+          className="text-sm font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-50"
+          prefetch={false}>
+          Roadmap
+        </Link>
+        <Link
+          href="#"
+          className="text-sm font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-50"
+          prefetch={false}>
+          How to Buy
+        </Link>
+        <Link
+          href="#"
+          className="text-sm font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-50"
+          prefetch={false}>
+          FAQ
         </Link>
       </nav>
       <Sheet>

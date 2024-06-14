@@ -17,8 +17,13 @@ const page = () => {
   return (
     <div className="container mx-auto">
       <div className="flex justify-between">
-        <div className="  p-4 w-1/2 h-11">
+        <div className="  p-4 w-1/2 ">
           <Image src={banner} alt="banner" />
+          <h4 className="text-black text-7xl text-center">Pikachu</h4>
+          <div className="flex gap-3">
+            <Button className="bg-[#5873ff]">Whitepaper</Button>
+            <Button variant={"outline"}>About</Button>
+          </div>
         </div>
         <div className=" p-4 w-1/2">
           <Card className="bg-gradient-to-r from-purple-700 to-pink-300">
@@ -67,6 +72,12 @@ const page = () => {
                     <Button className="bg-[#5873ff]">Connect</Button>
                   </div>
                 </div>
+                <hr />
+                <div>
+                  <h4 className="text-black text-2xl text-center">
+                    Referral Rewards
+                  </h4>
+                </div>
                 <div>
                   <label htmlFor="">You BEP20 Address</label>
                   <Input type="text" placeholder="" />
@@ -80,6 +91,26 @@ const page = () => {
           </Card>
         </div>
       </div>
+      {/* about */}
+      <section className="mt-5">
+        <h4 className="text-black text-7xl text-center">About</h4>
+        <div className="flex justify-between">
+          <div className="  p-4 w-1/2 h-11">
+            <p>
+              Pikachu is a meme coin inspired by the beloved Pokémon character
+              Pikachu. The $PIKACHU token aims to capture the playful and
+              energetic spirit of Pikachu, offering a fun and engaging
+              investment opportunity for the crypto community. By blending the
+              viral appeal of meme culture with innovative blockchain
+              technology, PIKACHU hopes to create a unique niche in the world of
+              digital currencies.
+            </p>
+          </div>
+          <div className="  p-4 w-1/2 h-11">
+            <Image src={banner} alt="banner" />
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
